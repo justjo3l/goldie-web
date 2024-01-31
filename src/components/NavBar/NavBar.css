@@ -48,14 +48,6 @@ li:has(.link) {
     list-style-type: none;
 }
 
-#navbar-menu {
-    margin: 0 3rem;
-}
-
-#navbar-menu:hover {
-    cursor: pointer;
-}
-
 @media (max-width: 800px) {
     #navbar-container {
         display: flex;
@@ -76,5 +68,17 @@ li:has(.link) {
 
     li:has(.link) {
         margin: 0.5rem 0;
+    }
+
+    #navbar-logo {
+        margin: 1rem 2rem;
+    }
+
+    #navbar-menu{
+        margin: 0 2rem;
+    }
+    
+    #navbar-menu:hover {
+        cursor: pointer;
     }
 }

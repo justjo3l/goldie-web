@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 import goldsteinLogo from '../../assets/goldstein-logo.png';
+import hamburgerMenu from '../../assets/hamburger-menu.png';
+
 import { useState } from 'react';
 
 function NavBar() {
@@ -21,9 +23,8 @@ function NavBar() {
                 <li id='navbar-logo-container'>
                     <img id='navbar-logo' src={goldsteinLogo} alt='Goldstein Logo' />
                     {currentWidth <= 800 &&
-                    <div onClick={onMenuClick} id='navbar-menu'>
-                        Menu
-                    </div>}
+                        <img id='navbar-menu' src={hamburgerMenu} onClick={onMenuClick} alt='Menu' />
+                    }
                 </li>
                 <div id='navbar-links' style={{display: currentWidth <= 800 && !menuOpen && "none"}}>
                     <li>
