@@ -1,7 +1,6 @@
 #navbar {
     height: 100%;
     width: 100%;
-    background-color: #141414;
 }
 
 #navbar-container {
@@ -16,6 +15,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    background-color: #141414;
 }
 
 #navbar-logo-container {
@@ -46,4 +46,35 @@
 
 li:has(.link) {
     list-style-type: none;
+}
+
+#navbar-menu {
+    margin: 0 3rem;
+}
+
+#navbar-menu:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    #navbar-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #navbar-links {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(auto-fit, 200px);
+        justify-content: space-evenly;
+    }
+
+    #navbar-logo-container {
+        justify-content: space-between;
+    }
+
+    li:has(.link) {
+        margin: 0.5rem 0;
+    }
 }
