@@ -6,7 +6,7 @@
 #navbar-container {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-columns: 0.6fr 1.4fr;
     justify-content: start;
     color: #FFF;
     text-align: center;
