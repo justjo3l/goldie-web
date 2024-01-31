@@ -1,0 +1,7 @@
+.Home {
+  height: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 5.5rem auto 5.5rem;
+  grid-template-columns: 1fr;
+}
