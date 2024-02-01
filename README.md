@@ -8,4 +8,4 @@ Objectives:
 - Be an opportunity for coding/engineering Goldie residents to contribute to a project.
 - Have fun!
 
-Not yet deployed, but keep an eye out :)
+Not yet deployed, but keep an eye out for it :)
