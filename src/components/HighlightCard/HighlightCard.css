@@ -1,0 +1,17 @@
+.highlight-card {
+    width: 55rem;
+    height: 20rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    border: 1px solid #BB8377;
+    background: #FFF;
+    margin: 0 1.8rem;
+}
+
+.highlight-card:first-of-type {
+    margin-left: 20rem;
+}
+
+.highlight-card:last-of-type {
+    margin-right: 20rem;
+}

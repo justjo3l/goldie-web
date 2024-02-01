@@ -6,6 +6,8 @@ import Footer from "../../components/Footer/Footer";
 
 import NavBar from "../../components/NavBar/NavBar";
 
+import HighlightContent from "../../components/HighlightContent/HighlightContent";
+
 import "./Home.css";
 
 function Home() {
@@ -15,7 +17,9 @@ function Home() {
 				<title>Goldie Web</title>
 				<NavBar />
 			</Header>
-			<Main />
+			<Main>
+				<HighlightContent />
+			</Main>
 			<Footer />
 		</div>
 	);
