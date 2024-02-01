@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import { useLocation } from "react-router-dom";
 
 import "./HighlightContent.css";
 
@@ -8,10 +10,12 @@ import HighlightCard from "../HighlightCard/HighlightCard";
 
 function HighlightContent() {
 
-	window.addEventListener("load", () => {
+	let location = useLocation();
+
+	useEffect(() => {
 		let scrollElement = document.querySelector("#highlight-content");
 		scrollElement.scrollLeft =  (scrollElement.scrollWidth - scrollElement.clientWidth ) / 2;
-	});
+	}, [location]);
 
 	return (<section id='highlight-section'>
 		<div id='highlight-content'>
