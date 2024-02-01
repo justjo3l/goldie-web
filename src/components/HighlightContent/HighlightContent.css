@@ -1,0 +1,25 @@
+#highlight-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#highlight-content {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    width: 100vw;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    margin: 1rem 0;
+}
+
+#highlight-content > * {
+    scroll-snap-align: center;
+}
+
+#highlight-content::-webkit-scrollbar {
+    display: none;
+  }
