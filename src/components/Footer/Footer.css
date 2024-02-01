@@ -1,0 +1,19 @@
+#footer {
+    height: 100%;
+    width: 100%;
+    background-color: #141414;
+}
+
+#footer-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    width: 2.5625rem;
+    height: 3.0625rem;
+    flex-shrink: 0;
+    margin: 1rem 0;
+}
