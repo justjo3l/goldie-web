@@ -1,11 +1,31 @@
 .highlight-card {
-    width: 55rem;
-    height: 20rem;
+    width: 77vw;
+    height: 18rem;
     flex-shrink: 0;
     border-radius: 1.875rem;
     border: 1px solid #BB8377;
     background: #FFF;
     margin: 0 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-card:hover {
+    border-width: 2px;
+    box-shadow: 0px 0px 20px 0px #BB8377;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.highlight-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4rem;
+    gap: 3rem;
 }
 
 .highlight-card:first-of-type {
@@ -14,4 +34,39 @@
 
 .highlight-card:last-of-type {
     margin-right: 20rem;
+}
+
+.highlight-img {
+    width: 14rem;
+    height: 14rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+}
+
+.highlight-text-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.highlight-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.highlight-desc {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
