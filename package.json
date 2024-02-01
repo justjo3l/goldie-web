@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest --coverage --passWithNoTests",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint . --ext .js,.jsx",
+    "lint-fix": "eslint . --ext .js,.jsx --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
     "react-router-dom": "^6.21.3"
   }
 }
