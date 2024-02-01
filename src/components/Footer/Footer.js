@@ -1,9 +1,13 @@
 import './Footer.css';
 
-function Footer({ children }) {
+import goldsteinLogo from '../../assets/goldstein-logo.png';
+
+function Footer() {
   return (
     <footer id='footer'>
-        { children }
+      <div className='footer-logo-container'>
+        <img id='footer-logo' src={goldsteinLogo} alt='Goldstein Logo' />
+      </div>
     </footer>
   );
 }
