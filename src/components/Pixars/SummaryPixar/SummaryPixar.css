@@ -35,3 +35,14 @@
     align-items: center;
     gap: 1rem;
 }
+
+@media (max-width: 800px) {
+    #summary-pixar-content {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    #lower-content {
+        flex-direction: column;
+    }
+}
