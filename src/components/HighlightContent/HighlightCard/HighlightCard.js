@@ -4,7 +4,7 @@ import "./HighlightCard.css";
 
 import propTypes from "prop-types";
 
-import harsh from "../../assets/harsh.jpeg";
+import harsh from "../../../assets/harsh.jpeg";
 
 HighlightCard.propTypes = {
 	index: propTypes.number.isRequired,
