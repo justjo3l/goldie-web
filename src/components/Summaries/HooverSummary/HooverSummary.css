@@ -1,0 +1,22 @@
+#hoover-summary-content {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    text-align: center;
+}
+
+#hoover-summary-title {
+    color: #141414;
+    font-family: Inter;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#hoover-summary-status {
+    color: #EB4434;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto 25% auto;
+}
