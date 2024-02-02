@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 
 import { FilterContext } from "../FilterSection";
 
+import SummaryPixar from "../../SummaryPixar/SummaryPixar";
+
 import "./FilterContent.css";
 
 function FilterContent() {
@@ -10,7 +12,7 @@ function FilterContent() {
 
 	return (
 		<section id='filter-content'>
-			{selected === "summary" && <p>Summary</p>}
+			{selected === "summary" && <SummaryPixar />}
 			{selected === "events" && <p>Events</p>}
 			{selected === "announcements" && <p>Announcements</p>}
 			{selected === "shop" && <p>Shop</p>}
