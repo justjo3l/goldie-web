@@ -7,6 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 
 import HighlightContent from "../../components/HighlightContent/HighlightContent";
+import FilterSection from "../../components/FilterSection/FilterSection";
 
 import "./Home.css";
 
@@ -19,6 +20,7 @@ function Home() {
 			</Header>
 			<Main>
 				<HighlightContent />
+				<FilterSection />
 			</Main>
 			<Footer />
 		</div>

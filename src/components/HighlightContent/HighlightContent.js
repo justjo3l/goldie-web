@@ -6,7 +6,7 @@ import "./HighlightContent.css";
 
 import highlightData from "../../assets/dummyData";
 
-import HighlightCard from "../HighlightCard/HighlightCard";
+import HighlightCard from "./HighlightCard/HighlightCard";
 
 function HighlightContent() {
 

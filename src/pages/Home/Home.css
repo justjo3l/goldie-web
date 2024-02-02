@@ -6,3 +6,12 @@
   grid-template-columns: 1fr;
   background-color: #FFF5F1;
 }
+
+.Home > #main {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
