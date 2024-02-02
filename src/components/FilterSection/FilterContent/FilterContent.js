@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 
 import { FilterContext } from "../FilterSection";
 
-import SummaryPixar from "../../SummaryPixar/SummaryPixar";
+import SummaryPixar from "../../Pixars/SummaryPixar/SummaryPixar";
 
 import "./FilterContent.css";
 

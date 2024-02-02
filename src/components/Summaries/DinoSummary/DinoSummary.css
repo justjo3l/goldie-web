@@ -1,0 +1,61 @@
+#dino-summary-content {
+    padding: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 0.1fr 0.4fr;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+#dino-summary-title {
+    color: #141414;
+    font-family: Inter;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.dino-btn {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#dino-summary-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    width: 100%;
+}
+
+#dino-summary-meal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 90%;
+    gap: 1rem;
+}
+
+.dino-summary-meal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.dino-summary-meal-title {
+    font-weight: 600;
+}
+
+.dino-summary-meal-value {
+    box-sizing: border-box;
+    font-weight: 400;
+    padding: 10%;
+}

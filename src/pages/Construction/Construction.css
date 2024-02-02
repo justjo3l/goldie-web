@@ -1,8 +1,16 @@
 .Construction {
     height: 100%;
+    width: 100%;
     text-align: center;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
     background-color: #FFF5F1;
+}
+
+.Construction > #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
