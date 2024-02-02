@@ -2,7 +2,7 @@
     padding: 2rem;
     text-align: center;
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 0.1fr 0.4fr;
     grid-template-columns: 1fr;
     gap: 2rem;
 }
@@ -39,14 +39,15 @@
     color: #7A7A7A;
     font-family: Inter;
     font-size: 90%;
+    gap: 1rem;
 }
 
 .dino-summary-meal-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100%;
+    gap: 0;
 }
 
 .dino-summary-meal-title {
@@ -56,5 +57,5 @@
 .dino-summary-meal-value {
     box-sizing: border-box;
     font-weight: 400;
-    padding: 2rem;
+    padding: 10%;
 }
