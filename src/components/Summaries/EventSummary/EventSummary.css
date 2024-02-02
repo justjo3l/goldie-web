@@ -1,0 +1,15 @@
+#event-summary-title {
+    color: #141414;
+    font-family: Inter;
+    font-size: 150%;
+    font-weight: 700;
+    width: 100%;
+}
+
+#event-summary-value {
+    color: #EB4434;
+    font-family: Inter;
+    font-size: 220%;
+    font-weight: 700;
+    width: 100%;
+}
