@@ -1,3 +1,7 @@
+#event-summary-content {
+    padding: 2rem;
+}
+
 #event-summary-title {
     color: #141414;
     font-family: Inter;
